@@ -658,3 +658,12 @@ pre tt:after {
   pointer-events: none;
   margin-left: 3px;
 }
+
+@keyframes shimmy {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(20px, 50px);
+  }
+}

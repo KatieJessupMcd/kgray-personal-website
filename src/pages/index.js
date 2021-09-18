@@ -26,7 +26,7 @@ const IndexPage = () => (
             height={270}
             quality={95}
             formats={["auto", "webp", "avif"]}
-            alt="A Gatsby astronaut"
+            alt="portrait"
             style={{
               marginBottom: `1.45rem`,
               borderRadius: `180px`,
@@ -41,7 +41,7 @@ const IndexPage = () => (
             height={270}
             quality={95}
             formats={["auto", "webp", "avif"]}
-            alt="A Gatsby astronaut"
+            alt="coffee"
             style={{ marginBottom: `1.45rem`, borderRadius: `180px` }}
           />
         </li>
