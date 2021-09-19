@@ -7,7 +7,7 @@ html {
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
-  background-color: #5496b6;
+  background-color: white;
 }
 body {
   margin: 0;
@@ -654,7 +654,7 @@ pre tt:after {
 
 .horizontal-line {
   grid-area: 1 / 1 / 2 / 6;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(84, 150, 182);
   pointer-events: none;
   margin-left: 3px;
 }

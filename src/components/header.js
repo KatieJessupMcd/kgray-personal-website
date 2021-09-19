@@ -5,9 +5,9 @@ import { Link } from "gatsby"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#5496B6`,
+      background: `white`,
       marginBottom: `0`,
-      color: `white`,
+      color: `rgb(84, 150, 182)`,
       fontFamily: `Roboto`,
     }}
   >
@@ -26,7 +26,7 @@ const Header = ({ siteTitle }) => (
           <Link
             to="/"
             style={{
-              color: `white`,
+              color: `rgb(84, 150, 182)`,
               textDecoration: `none`,
             }}
           >
@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => (
           <Link
             to="/about"
             style={{
-              color: `white`,
+              color: `rgb(84, 150, 182)`,
               textDecoration: `none`,
             }}
           >
@@ -48,7 +48,7 @@ const Header = ({ siteTitle }) => (
           <Link
             to="/work"
             style={{
-              color: `white`,
+              color: `rgb(84, 150, 182)`,
               textDecoration: `none`,
             }}
           >
@@ -59,7 +59,7 @@ const Header = ({ siteTitle }) => (
           <Link
             to="/blog"
             style={{
-              color: `white`,
+              color: `rgb(84, 150, 182)`,
               textDecoration: `none`,
             }}
           >
