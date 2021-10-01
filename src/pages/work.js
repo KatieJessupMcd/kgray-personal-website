@@ -13,66 +13,87 @@ const WorkPage = () => (
       className="work-container"
       style={{
         display: `grid`,
-        gridTemplateColumns: `repeat(2, 1fr)`,
+        gridTemplateColumns: `auto 1fr`,
         rowGap: `5em`,
         listStyle: `none`,
       }}
     >
       <li className="work-image" style={{ gridColumn: `1 / 2` }}>
-        <div style={{ position: `relative`, width: `270px`, height: `270px` }}>
+        <div style={{ width: `200px` }}>
           <StaticImage
-            src="../320_Dolby_logo_2019.svg.png"
-            width={270}
-            height={270}
+            src="../images/Dolby-io-logo-black.png"
+            width={700}
+            height={170}
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="portrait"
             style={{
-              position: `absolute`,
-              top: `0`,
-              left: `0`,
-              width: `100%`,
-              height: `100%`,
               marginBottom: `1.45rem`,
-              borderRadius: `180px`,
-              boxShadow: `12px 12px 2px 1px rgba(0, 0, 255, .2)`,
             }}
           />
         </div>
       </li>
 
-      <li className="work-info" style={{ gridColumn: `2 / 3` }}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet
-        neque a erat consectetur aliquet. Phasellus luctus ante nec elementum
-        viverra. Sed mollis maximus dolor, eget eleifend enim lacinia vel. Sed
-        at malesuada velit, pulvinar placerat nisl. Aenean quis urna lacinia,
-        bibendum orci in, pharetra mauris. Cras sodales vehicula odio rhoncus
-        ullamcorper. Morbi rutrum tortor non nisi finibus, ut suscipit magna
-        laoreet.
+      <li
+        className="work-info"
+        style={{
+          gridColumn: `2 / 3`,
+          border: `1px solid black`,
+          borderRadius: `6px`,
+          padding: `1em 1em`,
+        }}
+      >
+        <h3>Work Title</h3>
+        <h4>Company</h4>
+        <p>Date . Location</p>
+        <p>
+          Work Description blurb Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla aliquet neque a erat consectetur aliquet.
+          Phasellus luctus ante nec elementum viverra.{" "}
+        </p>
+        <ul>
+          <li>thing 1</li>
+          <li>thing 2</li>
+          <li>thing 3</li>
+        </ul>
       </li>
-      <li className="work-info" style={{ gridColumn: `1 / 2` }}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet
-        neque a erat consectetur aliquet. Phasellus luctus ante nec elementum
-        viverra. Sed mollis maximus dolor, eget eleifend enim lacinia vel. Sed
-        at malesuada velit, pulvinar placerat nisl. Aenean quis urna lacinia,
-        bibendum orci in, pharetra mauris. Cras sodales vehicula odio rhoncus
-        ullamcorper. Morbi rutrum tortor non nisi finibus, ut suscipit magna
-        laoreet.
+      <li className="work-image" style={{ gridColumn: `1 / 2` }}>
+        <div style={{ width: `200px`, height: `400px` }}>
+          <StaticImage
+            src="../images/Logo_Laneone.png"
+            width={5000}
+            height={1070}
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="portrait"
+            style={{
+              marginBottom: `1.45rem`,
+            }}
+          />
+        </div>
       </li>
-      <li className="work-image" style={{ gridColumn: `2 / 3` }}>
-        <StaticImage
-          src="../images/portrait-sketch.jpeg"
-          width={270}
-          height={270}
-          quality={95}
-          formats={["auto", "webp", "avif"]}
-          alt="portrait"
-          style={{
-            marginBottom: `1.45rem`,
-            borderRadius: `180px`,
-            boxShadow: `12px 12px 2px 1px rgba(0, 0, 255, .2)`,
-          }}
-        />
+      <li
+        className="work-info"
+        style={{
+          gridColumn: `2 / 3`,
+          border: `1px solid black`,
+          borderRadius: `6px`,
+          padding: `1em 1em`,
+        }}
+      >
+        <h3>Work Title</h3>
+        <h4>Company</h4>
+        <p>Date . Location</p>
+        <p>
+          Work Description blurb Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla aliquet neque a erat consectetur aliquet.
+          Phasellus luctus ante nec elementum viverra.{" "}
+        </p>
+        <ul>
+          <li>thing 1</li>
+          <li>thing 2</li>
+          <li>thing 3</li>
+        </ul>
       </li>
     </ul>
     <Link to="/">Go back to the homepage</Link>

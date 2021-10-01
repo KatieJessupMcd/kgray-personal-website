@@ -659,6 +659,10 @@ pre tt:after {
   margin-left: 3px;
 }
 
+.work-info:hover {
+  box-shadow: 10px 3px 3px whitesmoke;
+}
+
 @keyframes shimmy {
   0% {
     transform: translate(0, 0);
