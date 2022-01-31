@@ -3,7 +3,11 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import styled from "styled-components"
 
+const StyledLink = styled(props => <Link {...props} />)`
+  color: #2979d9;
+`
 const BlogPage = ({ data }) => (
   <Layout>
     <Seo title="Blog page" />
@@ -17,7 +21,7 @@ const BlogPage = ({ data }) => (
         </small>
         <br />
         <br />
-        <Link to={post.node.frontmatter.path}>Read More</Link>
+        <StyledLink to={post.node.frontmatter.path}>Read More</StyledLink>
         <br />
         <br />
         <hr />
