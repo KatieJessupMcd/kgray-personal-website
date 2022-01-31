@@ -9,43 +9,16 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <section>
-      <ul
-        style={{
-          display: `grid`,
-          gridTemplateColumns: `4fr 2fr 2fr 2fr`,
-          maxWidth: `400px`,
-          listStyle: `none`,
-        }}
-      >
-        <li
-          style={{ gridRow: `1 / span 2`, gridColumn: `1 / span 2`, zIndex: 2 }}
-        >
-          <StaticImage
-            src="../images/portrait-sketch.jpeg"
-            width={270}
-            height={270}
-            quality={95}
-            formats={["auto", "webp", "avif"]}
-            alt="portrait"
-            style={{
-              marginBottom: `1.45rem`,
-              borderRadius: `180px`,
-              boxShadow: `12px 12px 2px 1px rgba(0, 0, 255, .2)`,
-            }}
-          />
-        </li>
-        <li style={{ gridRow: `2 / span 4`, gridColumn: `2 / span 3` }}>
-          <StaticImage
-            src="../images/tea-sketch.jpeg"
-            width={270}
-            height={270}
-            quality={95}
-            formats={["auto", "webp", "avif"]}
-            alt="coffee"
-            style={{ marginBottom: `1.45rem`, borderRadius: `180px` }}
-          />
-        </li>
-      </ul>
+      <h1>Hello, I'm</h1>
+      <h2 style={{ fontSize: `80px` }}>Katie Gray</h2>
+      <p style={{ maxWidth: `750px` }}>
+        I am a full stack software engineer based in Bay Area. Currently I'm
+        working at{" "}
+        <a href="https://dolby.io/" style={{ color: `#2979D9` }}>
+          Dolby.io
+        </a>{" "}
+        as a software engineer in developer programs.{" "}
+      </p>
     </section>
   </Layout>
 )

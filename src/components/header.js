@@ -1,13 +1,14 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `white`,
       marginBottom: `0`,
-      color: `rgb(84, 150, 182)`,
+      color: `inherit`,
       fontFamily: `Roboto`,
     }}
   >
@@ -15,18 +16,30 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 690,
         padding: `1.45rem 1.0875rem`,
       }}
     >
       <nav className="nav-container">
-        <div className="first-name">Katie</div>
-        <div className="last-name">Gray</div>
+        <div className="first-name">
+          <StaticImage
+            src="../images/tea-sketch.jpeg"
+            width={50}
+            height={50}
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="coffee"
+            style={{
+              marginLeft: `1px`,
+              borderRadius: `180px`,
+              border: `solid gray 1px`,
+              zIndex: `5`,
+            }}
+          />
+        </div>
         <div className="home-link">
           <Link
             to="/"
             style={{
-              color: `rgb(84, 150, 182)`,
               textDecoration: `none`,
             }}
           >
@@ -37,7 +50,6 @@ const Header = ({ siteTitle }) => (
           <Link
             to="/about"
             style={{
-              color: `rgb(84, 150, 182)`,
               textDecoration: `none`,
             }}
           >
@@ -48,7 +60,6 @@ const Header = ({ siteTitle }) => (
           <Link
             to="/work"
             style={{
-              color: `rgb(84, 150, 182)`,
               textDecoration: `none`,
             }}
           >
@@ -59,7 +70,6 @@ const Header = ({ siteTitle }) => (
           <Link
             to="/blog"
             style={{
-              color: `rgb(84, 150, 182)`,
               textDecoration: `none`,
             }}
           >

@@ -7,12 +7,12 @@ import Seo from "../components/seo"
 const BlogPage = ({ data }) => (
   <Layout>
     <Seo title="Blog page" />
-    <h1>Hello let's learn all Blog me</h1>
+    <h1>Blog</h1>
     {data.allMarkdownRemark.edges.map(post => (
       <div key={post.node.id}>
         <h3>{post.node.frontmatter.title}</h3>
         <small>
-          Posted by {post.node.frontmatter.author} on
+          Posted by {post.node.frontmatter.author} on{" "}
           {post.node.frontmatter.date}
         </small>
         <br />
