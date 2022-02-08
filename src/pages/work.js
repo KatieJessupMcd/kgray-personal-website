@@ -33,21 +33,67 @@ const WorkPage = () => (
         <p>August 2020 - Present | San Francisco, CA</p>
         <ul>
           <li>
-            Build web applications using React and JavaScript demonstrating use
-            of Dolby.io’s APIs, integrate third-party APIs, develop code to
-            onboard developers
+            Develop{" "}
+            <a
+              style={{ color: `#2979D9` }}
+              href="https://docs.dolby.io/communications-apis/docs/commandservice-javascript-web-example"
+            >
+              demo applications
+            </a>{" "}
+            using React, JavaScript, HTML and CSS to increase developer adoption
+            of Dolby.io Communication APIs
           </li>
+
           <li>
-            Develop internal tools and infrastructure using Node.js and Python,
-            and AWS Services
+            Build customized developer{" "}
+            <a style={{ color: `#2979D9` }} href="https://docs.dolby.io/">
+              documentation experience
+            </a>{" "}
+            using JavaScript, HTML and CSS that is viewed and used by 1000+
+            developers per week
           </li>
+
           <li>
-            Customize functionality of documentation using JavaScript, HTML and
-            CSS
+            Planned and implemented custom search and filtering functionality
+            using Algolia API that resulted in a{" "}
+            <a
+              style={{ color: `#2979D9` }}
+              href="https://docs.dolby.io/communications-apis/page/gallery"
+            >
+              project gallery
+            </a>{" "}
+            with 60+ searches per week
           </li>
+
           <li>
-            Enhance developer experience by integrating third party search API
-            Algolia into documentation
+            Develop internal tools and infrastructure using Node.js and Amazon
+            Web Services (AWS){" "}
+          </li>
+
+          <li>
+            Led meetings to define and gather documentation landing page
+            requirements and then utilized those specifications to build and
+            deploy{" "}
+            <a style={{ color: `#2979D9` }} href="https://docs.dolby.io/">
+              landing page
+            </a>{" "}
+            within a span of three weeks
+          </li>
+
+          <li>
+            Wrote{" "}
+            <a
+              style={{ color: `#2979D9` }}
+              href="https://dolby.io/blog/generate-access-tokens-using-aws-services"
+            >
+              blog
+            </a>{" "}
+            demonstrating how to build an authentication server using AWS{" "}
+          </li>
+
+          <li>
+            Lead the Dolby Indigenous Employee group, moderating a company-wide
+            event attended by 70+ employees
           </li>
         </ul>
       </li>
